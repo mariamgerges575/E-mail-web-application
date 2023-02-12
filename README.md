@@ -76,4 +76,5 @@ email).
   (Objects of type users who have logged out) which is hard, also leaving them will 
   waste a lot of storage, so we used this design pattern to reuse already existing objects 
   instead of creating new ones.
+##### 8. Prototype Design Pattern
 
