@@ -43,7 +43,7 @@ Designed object-oriented model was used with some design pattern to create mail 
   - move
   - mark as read
   - delete
- ##UML Class Diagram:
+ ## UML Class Diagram:
  ![mail](https://user-images.githubusercontent.com/96488115/218330960-6af9d26b-60f1-4b50-9aff-5593bedd37a2.png)
 
  
