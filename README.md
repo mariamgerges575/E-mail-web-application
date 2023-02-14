@@ -61,14 +61,14 @@ email).
   used to build an object of type user with a different 
   number of attributes.
 ##### 5. State design pattern:
-  We implemented the state design pattern to handle the different states of the user’s 
+  Was implemented to handle the different states of the user’s 
   opened folder. Since the behavior of each folder is different from the other. For 
   example, you can’t sort by sender in the “sent” folder while you can do that in the 
   “inbox” folder. Moreover, the list of summarized that appears when you request a 
   certain folder should contain the receiver’s username in case of “sent” folder and the 
   sender’s username in case of “inbox” folder.
 ##### 6. Mediator design pattern:
-  the Mediator DP to reduce dependencies between objects and restricts 
+  Mediator DP to reduce dependencies between objects and restricts 
   direct communications between these objects and forces them to collaborate only 
   via a mediator object.
 ##### 7. Flyweight design pattern:
@@ -77,5 +77,24 @@ email).
   waste a lot of storage, so we used this design pattern to reuse already existing objects 
   instead of creating new ones.
 ##### 8. Prototype Design Pattern
-  this DP allows to make clone of mail objects so that each can be edited before saving them to database (e.g. message with multiple receivers should appear to each receiver with only one receiver which is his name). 
+  this DP allows making clone of mail objects so that each can be edited before saving them to database (e.g. message with multiple receivers should appear to each    receiver with only one receiver which is his name). 
+  
+  
+  
+  ## List of steps required to run our code: 
+- Open any IDE for java (IntelliJ, Eclipse, etc.).
+- Open backend folder from file>>open folder.
+- If you don’t have JDK 19, Download it or the IDE will ask you to if you want to download.
+- Run the main class
+- Download Node.js
+- From the terminal, install the Angular CLI globally with this command
+ ```
+npm install -g @angular/cli.
+```
+- Open VS Code or any id that can open angular.
+- Open frontend folder from file>>open folder.
+- Open terminal from terminal>>new terminal then write 
+```
+ng serve –open.
+```
 
