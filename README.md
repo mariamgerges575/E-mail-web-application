@@ -97,7 +97,7 @@ npm install -g @angular/cli.
 ng serve –open.
 ```
 
-##screenshots of UI:
+## screenshots of UI:
 ![image](https://user-images.githubusercontent.com/96488115/218702281-c0a051fb-7b32-4123-8a0a-0517836290be.png)
 
 ![image](https://user-images.githubusercontent.com/96488115/218702131-29f0478b-00ca-453e-aa67-7215c9fb2380.png)
