@@ -48,17 +48,17 @@ Designed object-oriented model was used with some design pattern to create mail 
 
 ## Design Patterns Used:
 ##### 1. Proxy design pattern:
-We used the Proxy Design Pattern control access to database class, allowing to 
+  used to control access database class, allowing to 
 perform something either before or after the request gets through to it (e.g., 
 verifying password or making sure that the receiver’s email is an actual existing 
 email).
 ##### 2. Singleton design pattern:
-  We used this pattern to make sure that the database class has only one instance to 
+  used to make sure that the database class has only one instance to 
   provide a global access point to this instance.
 ##### 3. Filter design pattern:
-  We this this design pattern simply to implement filter feature.
+  used simply to implement filter feat.
 ##### 4. Builder design pattern:
-  We used the Builder Design Pattern to build an object of type user with a different 
+  used to build an object of type user with a different 
   number of attributes.
 ##### 5. State design pattern:
   We implemented the state design pattern to handle the different states of the user’s 
@@ -68,13 +68,14 @@ email).
   certain folder should contain the receiver’s username in case of “sent” folder and the 
   sender’s username in case of “inbox” folder.
 ##### 6. Mediator design pattern:
-  We used the Mediator DP to reduce dependencies between objects and restricts 
+  the Mediator DP to reduce dependencies between objects and restricts 
   direct communications between these objects and forces them to collaborate only 
   via a mediator object.
 ##### 7. Flyweight design pattern:
-  We used this design pattern to avoid destroying unused objects
+  this design pattern to avoid destroying unused objects
   (Objects of type users who have logged out) which is hard, also leaving them will 
   waste a lot of storage, so we used this design pattern to reuse already existing objects 
   instead of creating new ones.
 ##### 8. Prototype Design Pattern
+  this DP allows to make clone of mail objects so that each can be edited before saving them to database (e.g. message with multiple receivers should appear to each receiver with only one receiver which is his name). 
 
