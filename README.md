@@ -38,7 +38,6 @@ Designed object-oriented model was used with some design pattern to create mail 
 - contacts:
   - adding, deleting
   - a contact can have multiple emails with one set default
-  - searching and Sorting
 - selecting multiple emails to
   - move
   - mark as read
@@ -97,4 +96,11 @@ npm install -g @angular/cli.
 ```
 ng serve –open.
 ```
+
+##screenshots of UI:
+![image](https://user-images.githubusercontent.com/96488115/218702281-c0a051fb-7b32-4123-8a0a-0517836290be.png)
+
+![image](https://user-images.githubusercontent.com/96488115/218702131-29f0478b-00ca-453e-aa67-7215c9fb2380.png)
+
+![image](https://user-images.githubusercontent.com/96488115/218702787-cac895b6-d965-4321-96a0-205a61abc1c9.png)
 
