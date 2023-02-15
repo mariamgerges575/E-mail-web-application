@@ -3,7 +3,7 @@ Designed object-oriented model was used with some design pattern to create mail 
 #### **note**:
 **it's not a networked app** the aim of this project is to design object-oriented model and to use different design patterns for better design
 
-##### the basic functionalities include:
+#### the basic functionalities include:
 - Composing and Drafts. 
 - Default folders:
   - Inbox (default, priority)
