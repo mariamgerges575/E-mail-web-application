@@ -1,6 +1,6 @@
 # E-mail-web-application
 Designed object-oriented model was used with some design pattern to create mail service web application with the basic functionalities using angular for frontend and java with spring boot framework for backend.
-##### rgb(255, 0, 0) note:
+#### **note**:
 **it's not a networked app** the aim of this project is to design object-oriented model and to use different design patterns for better design
 
 ##### the basic functionalities include:
