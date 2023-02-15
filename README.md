@@ -78,7 +78,6 @@ email).
   this DP allows making clone of mail objects so that each can be edited before saving them to database (e.g. message with multiple receivers should appear to each    receiver with only one receiver which is his name). 
   
   
-  
   ## List of steps required to run our code: 
 - Open any IDE for java (IntelliJ, Eclipse, etc.).
 - Open backend folder from file>>open folder.
